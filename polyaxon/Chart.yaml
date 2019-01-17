@@ -1,17 +1,18 @@
 apiVersion: v1
-description: An enterprise-grade open source platform for building, training, and monitoring large scale deep learning applications.
-name: polyaxon
-version: 0.3.7.1
-keywords:
-  - deep learning
-  - a.i.
-  - machine learning
-  - infrastructure
-sources:
-  - https://github.com/clark-wu
+description: An enterprise-grade open source platform for building, training, and
+  monitoring large scale deep learning applications.
 home: https://polyaxon.com
 icon: https://polyaxon.com/img/icon.png
+keywords:
+- deep learning
+- a.i.
+- machine learning
+- infrastructure
 maintainers:
-  - name: Polyaxon
-    email: contact@polyaxon.com
-    url: polyaxon.com
+- email: contact@polyaxon.com
+  name: Polyaxon
+  url: polyaxon.com
+name: polyaxon
+sources:
+- https://github.com/clark-wu
+version: 0.3.7.1
