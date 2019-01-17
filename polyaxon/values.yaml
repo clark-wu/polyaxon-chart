@@ -236,8 +236,8 @@ api:
     annotations: {}
 
 streams:
-  image: polyaxon/polyaxon-streams
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-streams
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
   resources:
     limits:
@@ -254,8 +254,8 @@ streams:
     nodePort: 31812
 
 scheduler:
-  image: polyaxon/polyaxon-scheduler
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-scheduler
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
   replicas: 1
   concurrency: 2
@@ -268,8 +268,8 @@ scheduler:
       memory: 200Mi
 
 hpsearch:
-  image: polyaxon/polyaxon-hpsearch
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-hpsearch
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
   replicas: 1
   concurrency: 2
@@ -279,8 +279,8 @@ hpsearch:
       memory: 200Mi
 
 eventsHandlers:
-  image: polyaxon/polyaxon-events-handlers
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-events-handlers
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
   replicas: 1
   concurrency: 2
@@ -294,8 +294,8 @@ eventsHandlers:
 
 
 k8sEventsHandlers:
-  image: polyaxon/polyaxon-k8s-events-handlers
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-k8s-events-handlers
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
   replicas: 1
   concurrency: 2
@@ -308,8 +308,8 @@ k8sEventsHandlers:
       memory: 200Mi
 
 beat:
-  image: polyaxon/polyaxon-beat
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-beat
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
   replicas: 1
   resources:
@@ -321,8 +321,8 @@ beat:
       memory: 128Mi
 
 crons:
-  image: polyaxon/polyaxon-crons
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-crons
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
   replicas: 1
   concurrency: 2
@@ -339,8 +339,8 @@ eventMonitors:
 
   namespace:
     enabled: true
-    image: polyaxon/polyaxon-monitor-namespace
-    imageTag: 0.3.7
+    image: clarkwu/polyaxon-monitor-namespace
+    imageTag: 0.3.7.1
     imagePullPolicy: Always
     resources:
       limits:
@@ -354,8 +354,8 @@ eventMonitors:
 
   statuses:
     enabled: true
-    image: polyaxon/polyaxon-monitor-statuses
-    imageTag: 0.3.7
+    image: clarkwu/polyaxon-monitor-statuses
+    imageTag: 0.3.7.1
     imagePullPolicy: Always
     resources:
       limits:
@@ -369,8 +369,8 @@ eventMonitors:
 
 resourcesDaemon:
   enabled: true
-  image: polyaxon/polyaxon-monitor-resources
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-monitor-resources
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
   resources:
     limits:
@@ -383,23 +383,23 @@ resourcesDaemon:
   logSleepInterval: 1
 
 sidecar:
-  image: polyaxon/polyaxon-sidecar
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-sidecar
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
 
 dockerizer:
-  image: polyaxon/polyaxon-dockerizer
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-dockerizer
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
 
 hooks:
-  image: polyaxon/polyaxon-manage
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-manage
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
 
 tablesHook:
-  image: polyaxon/polyaxon-tables
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-tables
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
 
 
