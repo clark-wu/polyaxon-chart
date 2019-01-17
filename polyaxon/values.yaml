@@ -216,8 +216,8 @@ affinity:
 passwordLenght: 8
 
 api:
-  image: polyaxon/polyaxon-api
-  imageTag: 0.3.7
+  image: clarkwu/polyaxon-api
+  imageTag: 0.3.7.1
   imagePullPolicy: Always
   replicas: 1
   resources:
